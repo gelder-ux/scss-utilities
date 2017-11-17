@@ -1,0 +1,60 @@
+$color-white: #ffffff;
+$color-black: #222222;
+
+$color-gray: mix($color-black, $color-white, 50%) !default;
+$color-gray-dark: mix($color-black, $color-white, 85%) !default;
+$color-gray-light: mix($color-black, $color-white, 10%) !default;
+
+$color-primary: #E82C0C !default;
+
+.background-color {
+    &-white {
+        background-color: $color-white;
+    }
+
+    &-black {
+        background-color: $color-black;
+    }
+
+    &-gray {
+        background-color: $color-gray;
+    }
+    
+    &-gray-dark {
+        background-color: $color-gray-dark;
+    }
+
+    &-gray-light {
+        background-color: $color-gray-light;
+    }
+
+    &-primary {
+        background-color: $color-primary;
+    }
+}
+
+.text-color {
+    &-white {
+        color: $color-white;
+    }
+
+    &-black {
+        color: $color-black;
+    }
+
+    &-gray {
+        color: $color-gray;
+    }
+    
+    &-gray-dark {
+        color: $color-gray-dark;
+    }
+
+    &-gray-light {
+        color: $color-gray-light;
+    }
+
+    &-primary {
+        color: $color-primary;
+    }   
+}
