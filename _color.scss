@@ -1,5 +1,5 @@
-$color-white: #ffffff;
-$color-black: #222222;
+$color-white: #ffffff !default;
+$color-black: #222222 !default;
 
 $color-gray: mix($color-black, $color-white, 50%) !default;
 $color-gray-dark: mix($color-black, $color-white, 85%) !default;
