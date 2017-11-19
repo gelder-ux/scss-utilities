@@ -1,21 +1,23 @@
-.position-relative {
-    position: relative;
-}
+.position {
+    &-relative {
+        position: relative;
+    }
 
-.position-absolute {
-    position: absolute;
-}
+    &-absolute {
+        position: absolute;
+    }
 
-.position-fixed {
-    position: fixed;
-}
+    &-fixed {
+        position: fixed;
+    }
 
-.position-sticky {
-    position: sticky;
-}
+    &-sticky {
+        position: sticky;
+    }
 
-.position-inherit {
-    position: inherit;
+    &-inherit {
+        position: inherit;
+    }
 }
 
 .top-0 {

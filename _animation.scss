@@ -1,0 +1,7 @@
+@media screen and (prefers-reduced-motion: no-preference) {
+    // applies styles when the user has made no preference known
+}
+
+@media (prefers-reduced-motion: reduce) {
+    // adjust potentially harmful animations to be paused or less drastic here
+}
